@@ -1,5 +1,5 @@
- Equilibrium Lead Solubility Simulator (TELSS) Source Code
-===========================================================
+ Theoretical Equilibrium Lead Solubility Simulator (TELSS) Source Code
+======================================================================
 
 This repository is for code and documentation for the Equilibrium Lead Solubility Simulator (TELSS) Source Code.
 
