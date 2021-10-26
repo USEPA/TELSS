@@ -7,7 +7,7 @@ This repository is released under the [MIT License](LICENSE.md).
 
 # Instructions to use [app.R](app.R)
 
-Instructions for using [app.R](app.R) are located in the [manuscript supplementary information](Wahman-et-al-2021-Theoretical-Lead-Model-TELSS-SI.pdf) in the section entitled *Instructions for Acquiring and Running TELSS R Code* that starts on page S-11.
+Instructions for using [app.R](app.R) are located in the [manuscript supplementary information](Wahman-et-al-2021-Theoretical-Lead-Model-TELSS-SI.docx) in the section entitled *Instructions for Acquiring and Running TELSS R Code* that starts on page S-11.
 
 # Citation
 
