@@ -432,7 +432,7 @@ simulate_solubility <- function(K_solid_lead_hydroxide, K_solid_cerussite, K_sol
       # Calculate phosphate alpha values
       alpha_0_p <- 1 / (1 + K_p_1_c / H_plus_a + K_p_1_c * K_p_2_c / H_plus_a^2 + K_p_1_c * K_p_2_c * K_p_3_c / H_plus_a^3)
       alpha_1_p <- 1 / (H_plus_a / K_p_1_c + 1 + K_p_2_c / H_plus_a + K_p_2_c * K_p_3_c / H_plus_a^2)
-      alpha_2_p <- 1 / (H_plus_a^2 / K_p_1_c * K_p_2_c + H_plus_a / K_p_2_c + 1 + K_p_3_c / H_plus_a)
+      alpha_2_p <- 1 / (H_plus_a^2 / (K_p_1_c * K_p_2_c) + H_plus_a / K_p_2_c + 1 + K_p_3_c / H_plus_a)
       alpha_3_p <- 1 / (H_plus_a^3 / (K_p_1_c * K_p_2_c * K_p_3_c) + H_plus_a^2 / (K_p_2_c * K_p_3_c) + H_plus_a / K_p_3_c + 1)
 
       # Calculate phosphate species concentrations
@@ -2111,9 +2111,9 @@ ui <- dashboardPage(
               #Title block
               h3(tags$b("Theoretical Equilibrium Lead Solubility Simulator (TELSS) Source Code")),
 
-              h4("Code version 1.00"),
+              h4("Code version 1.01"),
 
-              h4("Code last updated February 12, 2021"),
+              h4("Code last updated April 8, 2022"),
 
               h4("R code implementation by David G. Wahman (wahman.david@epa.gov), United States Environmental Protection Agency"),
 
